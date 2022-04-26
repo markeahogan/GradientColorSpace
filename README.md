@@ -29,7 +29,7 @@ Scope(s)    com.popupasylum.gradientcolorspace
 
 ## Gradient Conversion
 
-A Gradient with 2 keys can be converted into a piecewise gradient with the appearance of another color space using the `GradientColorSpace.ConvertGradient` method. It creates 6 keys between the first and last keys that are interpolate from the first to last color using the chosen color space.
+A Gradient with 2 keys can be converted into a piecewise gradient with the appearance of another color space using the `GradientColorSpace.ConvertGradient` method. It creates 6 keys between the first and last keys that are interpolated from the first to last color using the chosen color space.
 
 ##### Original Gradient
 ![Original Gradient](.media/originalGradient.png)
@@ -40,6 +40,6 @@ A Gradient with 2 keys can be converted into a piecewise gradient with the appea
 
 ## Context Menu
 
-Right-clicking a gradient properties label will show a 'Color Space' context menu, allowing quick conversion.
+Right-clicking a gradient property's label will show a 'Color Space' context menu, allowing quick conversion.
 
 ![Context Menu](.media/contextmenu.gif)

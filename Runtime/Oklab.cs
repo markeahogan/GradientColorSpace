@@ -24,8 +24,6 @@ namespace PopupAsylum.GradientColorSpace
             1.9779984951f * l_ - 2.4285922050f * m_ + 0.4505937099f * s_,
             0.0259040371f * l_ + 0.7827717662f * m_ - 0.8086757660f * s_,
             linearColor.a);
-
-            static float cbrtf(float l) => Mathf.Pow(l, 1f / 3f);
         }
 
         public static Color ToColor(Lab lab)
@@ -49,5 +47,7 @@ namespace PopupAsylum.GradientColorSpace
                 -0.0041960863f * l - 0.7034186147f * m + 1.7076147010f * s,
                 lab.alpha);
         }
+
+        private static float cbrtf(float l) => Mathf.Pow(l, 1f / 3f);
     }
 }

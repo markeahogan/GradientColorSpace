@@ -1,7 +1,7 @@
 {
   "name": "com.popupasylum.gradientcolorspace",
   "displayName": "Gradient Color Space",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "unity": "2019.3",
   "description": "Provides functionality to break a simple UnityEngine.Gradient into a piecewise curve in other color spaces.",
   "keywords": [
